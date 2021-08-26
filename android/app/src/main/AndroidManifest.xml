@@ -2,7 +2,7 @@
     package="com.example.gold_hosting_client_flutter">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Gold-Hosting"
+        android:label="Gold Hosting"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
