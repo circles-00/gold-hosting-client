@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gold_hosting_client_flutter">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="gold_hosting_client_flutter"
+        android:label="Gold-Hosting"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

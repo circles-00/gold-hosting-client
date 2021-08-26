@@ -10,7 +10,7 @@ class GoldHosting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Gold-Hosting Client',
+      title: 'Gold Hosting App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -29,7 +29,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gold-Hosting Client'),
+        title: const Text('Gold Hosting App'),
         backgroundColor: Color(0xFF202c3c),
       ),
       body: WebView(
